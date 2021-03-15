@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn{
+    height: 40px;
+    width: 150px;
+    margin: 20px 44%;
+    font-size: 22px;
+    color: white;
+    border:2px dotted blue;
+    background-image: linear-gradient(to right, red, blue);
+    cursor:pointer;
+}
+
+.container{
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    overflow: hidden;
+}
+
+.box{
+    display: flex;
+    height: 150px;
+    width: 19.95%;
+    border: 1px solid white;
+    display: box;
+    align-items: center;
+    justify-content: center;
+}
